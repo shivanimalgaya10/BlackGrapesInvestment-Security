@@ -1,0 +1,148 @@
+
+/*  //////////////////////////////////////// */
+
+
+
+
+  /***** now contact page */
+  .contact-page {
+    position: relative;
+    height: 1000px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+  
+  
+  .background-image {
+    background-image: url('https://wallpapertag.com/wallpaper/full/9/b/3/113239-popular-light-gray-background-2560x1600.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    color: white;
+    background: #5a5c6480;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "Akaya Kanadaka", Sans-serif;
+  }
+  
+  .content-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    top:270px;
+    font-family: "Akaya Kanadaka", Sans-serif;
+    background-color: rgb(210, 212, 213);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    margin-bottom: 100px;
+    padding: 23px;
+    box-sizing: border-box;
+    width: 90%; /* Increase the overall width */
+  max-width: 1150px; /* Increase the max-width *
+
+    justify-content: space-between; /* Ensures even spacing between the two sections */
+    align-items: stretch; /* Makes both sections the same height */
+  }
+  .right-section{
+    /* width: 70%; */
+    padding: 10px;
+    height: auto;
+  
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    
+  }
+  
+  .left-section{
+    /* width: 70%; */
+    padding: 10px;
+    height: auto;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .left-section .card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+ .right-section .card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .info {
+    font-family: "Akaya Kanadaka", Sans-serif;
+    border:1px  solid #ccc ;
+    padding: 10px;
+    align-items: center;
+    gap: 15px;
+  }
+  .info-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between the heading and the icon */
+  }
+  .info-header h3{
+    font-family: "Akaya Kanadaka", Sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #007bff;
+    align-items: center;
+  }
+  
+  .right-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .right-section form input, 
+  .right-section form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .right-section form button {
+    padding: 10px 20px;
+    background-color: hsl(217, 33%, 46%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-section form button:hover {
+    background-color: hsl(229, 83%, 60%);
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875em;
+  }
+  

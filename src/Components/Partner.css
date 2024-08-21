@@ -1,0 +1,73 @@
+.partners-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #27333a;
+    color: aliceblue;
+    margin: 8px;
+  }
+  
+  .trusted-by-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Akaya Kanadaka", Sans-serif;
+  }
+  
+  .authorized-partners-text {
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-family: "Akaya Kanadaka", Sans-serif;
+  }
+  
+  .partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .partners-logos img {
+    max-width: 150px;
+    height: 100px;
+    width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .partners-logos img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .trusted-by-heading {
+      font-size: 30px;
+    }
+  
+    .authorized-partners-text {
+      font-size: 22px;
+    }
+  
+    .partners-logos img {
+      max-width: 120px;
+      height: 80px;
+      width: 280px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .trusted-by-heading {
+      font-size: 24px;
+    }
+  
+    .authorized-partners-text {
+      font-size: 18px;
+    }
+  
+    .partners-logos img {
+      max-width: 100px;
+      height: 60px;
+      width: 240px;
+    }
+  }
+  

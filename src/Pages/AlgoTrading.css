@@ -1,0 +1,88 @@
+/* AlgoTrading.css */
+
+.algo-trading-container {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease;
+    
+  }
+  .algo-trading-container:hover{
+    transform: scale(1.06);
+  }
+  
+  .algo-trading-header {
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+  
+  .algo-trading-header h1 {
+    color: #0b1016;
+    font-size: 28px;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .algo-trading-intro, .algo-trading-applications, .algo-trading-systems, .algo-trading-strategies {
+    margin-bottom: 20px;
+  }
+  
+  .algo-trading-intro h2, .algo-trading-applications h2, .algo-trading-systems h2, .algo-trading-strategies h2 {
+    color: hsl(195, 10%, 15%);
+    font-size: 35px;
+    text-align: center;
+
+  }
+  .algo-trading-intro p{
+    color: #333;
+    line-height:0.8;
+  }
+  
+
+   .algo-trading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .algo-trading-card {
+    display: flex;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.2s ease;
+  }
+  
+  .algo-trading-image {
+    flex: 1;
+  }
+  
+  .algo-trading-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .algo-trading-content {
+    flex: 1.6;
+    padding: 20px;
+  }
+  
+  .algo-trading-content h2 {
+    margin-top: 5px;
+  }
+  
+  .algo-trading-content p {
+    margin-bottom: 10px;
+  }
+  .algo-trading-card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  

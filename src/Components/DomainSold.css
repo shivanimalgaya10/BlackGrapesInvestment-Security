@@ -1,0 +1,53 @@
+/* Container for the entire slider section */
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    background-image: url('https://apexmoon.com/img/past-sales-bg2.jpg');
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .heading {
+    color: wheat;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Wrapper for the sliding cards */
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    animation: slide 20s linear infinite;
+  }
+  
+  /* Styling for individual cards */
+  .card {
+    display: inline-block;
+    background: #333;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+ 
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-decoration: none;
+  }
+  
+  .card p{
+    color: blue;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Keyframes for sliding animation */
+  @keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  

@@ -1,0 +1,154 @@
+/* AlgoTrading.css */
+
+.option-trading-container {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease;
+    
+  }
+  .option-trading-container:hover{
+    transform: scale(1.06);
+  }
+    
+  .option-text {
+    position: absolute; /* Position it over the image */
+    top: 67%; /* Center vertically */
+    left: 35px; /* Space from the left */
+    transform: translateY(-50%);
+     /* Center the text vertically */
+    color: white; /* Text color */
+    max-width: 35%; /* Adjust width as needed */
+    background: #7e747480; /* Background for better readability */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px;
+    margin: 10px; /* Optional: rounded corners */
+  }
+  .option-text p{
+    font-size: 18px;
+  }
+  .option-trading-header {
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+  
+  .option-trading-header h1 {
+    color: #0b1016;
+    font-size: 28px;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .option-trading-intro, .option-trading-applications, .option-trading-systems, .option-trading-strategies {
+    margin-bottom: 20px;
+  }
+  
+  .option-trading-intro h2, .option-trading-applications h2, .option-trading-systems h2, .option-trading-strategies h2 {
+    color: hsl(195, 10%, 15%);
+    font-size: 35px;
+    text-align: center;
+
+  }
+  .option-trading-intro p{
+    color: #333;
+    line-height:0.8;
+  }
+  
+
+   .option-trading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .option-trading-card {
+    display: flex;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.2s ease;
+  }
+  
+  .option-trading-image {
+    flex: 1;
+  }
+  
+  .option-trading-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .option-trading-content {
+    flex: 1.6;
+    padding: 20px;
+  }
+  
+  .option-trading-content h2 {
+    margin-top: 5px;
+  }
+  
+  .option-trading-content p {
+    margin-bottom: 10px;
+  }
+  .option-trading-card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+/* ------- */
+.option-trading-benefits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .option-benefit-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+    max-width: 23%;
+    margin: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+   
+  }
+  
+  .option-benefit-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .option-benefit-card h2 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .option-benefit-card p {
+    margin: 10px ;
+    font-size: 1rem;
+    color: #333;
+  }
+  .option-trading-benefits-intro {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+  }
+  
+  .option-trading-benefits-intro h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }

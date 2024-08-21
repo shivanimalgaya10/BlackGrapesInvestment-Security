@@ -1,0 +1,12 @@
+/* Example CSS to increase chat icon size */
+.tawk-mobile-icon { /* Adjust this class based on the actual widget class */
+    width: 60px; /* Increase width */
+    height: 60px; /* Increase height */
+  }
+  
+  /* Example CSS to increase chat dialog size */
+  .tawk-widget-container { /* Adjust this class based on the actual widget class */
+    width: 400px; /* Increase width */
+    height: 500px; /* Increase height */
+  }
+  

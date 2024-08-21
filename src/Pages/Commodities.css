@@ -1,0 +1,87 @@
+/* Commodities.css */
+
+/* Container for the entire commodities section */
+.commodities-services-container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  /* Container for the background image and text */
+  .commodities-example {
+    position: relative;
+    width: 100%;
+    height: auto; /* Allows height to adjust based on image */
+  }
+  
+  /* Background image styling */
+  .commodities-background {
+    width: 100%; /* Full width of the container */
+    height: 700px; /* Adjust height automatically */
+    display: block; /* Prevents bottom whitespace */
+  }
+  
+  /* Text overlay on the background image */
+  .commodities-text {
+    position: absolute; /* Position it over the image */
+    top: 50%; /* Center vertically */
+    left: 20px; /* Space from the left */
+    transform: translateY(-50%); /* Center the text vertically */
+    color: white; /* Text color */
+    max-width: 40%; /* Adjust width as needed */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+  
+  /* Benefits section styling */
+  .benefits {
+    padding: 40px;
+    background-color: #f7f7f1;
+  }
+  
+  /* Title of the benefits section */
+  .benefits-title {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #2225258d; /* Customize color */
+    text-align: center;
+    text-decoration: underline; /* Adds an underline to the title */
+  }
+  
+  /* Container for benefit cards */
+  .benefits-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+  }
+  
+  /* Individual benefit card */
+  .benefit-card {
+    background: #f9f9f9;
+    
+    padding: 25px;
+    border-radius: 8px;
+    width: 100%; /* Full width by default */
+    max-width: 400px; /* Maximum width for cards */
+    height: auto; /* Adjust height automatically */
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle effect */
+    text-align: center;
+  }
+  
+  /* Heading inside benefit cards */
+  .benefit-card h3 {
+    margin-top: 0;
+    text-decoration: underline;
+    font-size: 1.5em; /* Adjust font size */
+    color: #333; /* Darker color for contrast */
+  }
+  
+  /* Paragraph text inside benefit cards */
+  .benefit-card p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666; /* Lighter color for readability */
+  }
+  

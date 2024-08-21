@@ -1,0 +1,246 @@
+/* YourStyle.css */
+
+/* General Styles */
+.about-trading-benefits-intro h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  font-family: "Akaya Kanadaka", Sans-serif;
+}
+
+/* Container for Trading Benefits */
+.about-trading-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Image Container */
+.image-container {
+  margin-right: 70px;
+  transition: transform 0.3s ease-in-out;
+}
+.image-container:hover {
+  transform: scale(1.06);
+}
+
+/* Benefit Card */
+.about-benefit-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  height: 600px;
+  margin-left: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  flex: 1 1 calc(33.333% - 40px); /* 3 cards per row */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+.about-benefit-card h2 {
+  font-size: 24px;
+  font-family: "Salsa", Sans-serif;
+  font-weight: 700;
+}
+.about-benefit-card:hover {
+  transform: scale(1.06);
+}
+.about-benefit-card p {
+  font-family: "Quicksand", Sans-serif;
+  text-align: center;
+  font-size: 17px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-benefit-card {
+    flex: 1 1 calc(50% - 20px); /* 2 cards per row on smaller screens */
+  }
+  .about-sir-container {
+    flex-direction: column;
+  }
+  .about-sir-image, .about-sir-content {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-benefit-card {
+    flex: 1 1 100%; /* 1 card per row on very small screens */
+  }
+}
+
+/* Section Container */
+.container-fluid10 {
+  background-color: #f8f9fa;
+  padding: 15px 0;
+}
+
+.container10 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Section Heading */
+.about-us-moon10 {
+  text-align: center;
+}
+
+.about-us-moon10 h2 {
+  font-size: 2.5em;
+  color: #343a40;
+  font-family: "Akaya Kanadaka", Sans-serif;
+  transition: color 0.3s ease-in-out;
+}
+
+.about-us-moon10 p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  font-family: "Salsa", Sans-serif;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.about-us-moon10:hover h2 {
+  color: #007bff; /* Change to the desired hover color */
+}
+
+/* Responsive Heading */
+@media (max-width: 768px) {
+  .about-us-moon10 h2 {
+    font-size: 2em;
+  }
+
+  .about-us-moon10 p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us-moon10 h2 {
+    font-size: 1.8em;
+  }
+
+  .about-us-moon10 p {
+    font-size: 0.9em;
+  }
+}
+
+/* Background Image Section */
+.bavhtr {
+  background-image: url('https://apexmoon.com/img/testimonils-bg.jpg');
+}
+
+/* Section Header */
+.section-header {
+  color: #fff;
+  text-align: center;
+}
+
+.con {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Alert Styles */
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.alert.success {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.alert.error {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* About Sir Section */
+.about-sir-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 23px;
+  margin: 40px;
+  background-color: rgb(240, 245, 238);
+  transition: transform 0.3s ease-in-out;
+}
+.about-sir-container:hover {
+  transform: scale(1.06);
+}
+
+.about-sir-image {
+  flex: 1;
+  min-width: 300px;
+  padding: 40px;
+  padding-right: 0;
+  margin-left: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+.about-sir-image img {
+  width: 80%;
+  height: auto;
+}
+.about-sir-image:hover {
+  transform: scale(1.06);
+}
+
+.about-sir-content {
+  padding: 0px;
+  flex: 1.5;
+  min-width: 300px;
+}
+.about-sir-content h2 {
+  font-family: "Akaya Kanadaka", Sans-serif;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+.about-sir-content p {
+  font-family: "Akaya Kanadaka", Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  padding-right: 180px;
+}
+
+.about-sir-content h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-sir-container {
+    flex-direction: column;
+  }
+
+  .about-sir-image, .about-sir-content {
+    min-width: 100%;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-sir-content p {
+    padding-right: 0;
+  }
+}
+
+/* Bordered Image */
+.bordered-image {
+  border: 5px double hsl(113, 21%, 23%);
+}

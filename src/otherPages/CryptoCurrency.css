@@ -1,0 +1,63 @@
+.crypto-services-container {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.crypto-example {
+  position: relative;
+  width: 100%;
+  height: auto; /* Allow height to adjust based on image */
+}
+
+.crypto-background {
+  width: 100%; /* Full width of the container */
+  height: 700px; /* Adjust height automatically */
+  display: block; /* Prevents bottom whitespace */
+}
+
+.crypto-text {
+  position: absolute; /* Position it over the image */
+  top: 40%; /* Center vertically */
+  left: 20px; /* Space from the left */
+  transform: translateY(-50%); /* Center the text vertically */
+  color: white; /* Text color */
+  max-width: 40%; /* Adjust width as needed */
+  background: hsla(234, 83%, 60%, 0.502); /* Background for better readability */
+  padding: 20px; /* Add some padding */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.benefits {
+  padding: 20px;
+}
+
+.benefits-title {
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: blue;
+ text-align: center;
+ text-decoration: underline;
+}
+
+.benefits-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ gap: 20px; /* Space between cards */
+}
+
+.benefit-card {
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 8px;
+  width: 25%;
+  height: 150px;/* Adjust width and space */
+  box-shadow: 4px 6px 5px hwb(240 27% 6%);
+  text-align: center;
+}
+
+.benefit-card h3 {
+  margin-top: 0;
+ 
+}

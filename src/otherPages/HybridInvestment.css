@@ -1,0 +1,71 @@
+.hybrid-services-container {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  
+  .hybrid-example {
+    position: relative;
+    width: 100%;
+    height: auto; /* Allow height to adjust based on image */
+  }
+  
+  .hybrid-background {
+    width: 100%; /* Full width of the container */
+    height: 700px; /* Adjust height automatically */
+    display: block; /* Prevents bottom whitespace */
+  }
+  
+  .hybrid-text {
+    position: absolute; /* Position it over the image */
+    top: 50%; /* Center vertically */
+    left: 20px; /* Space from the left */
+    transform: translateY(-50%); /* Center the text vertically */
+    color: white; /* Text color */
+    max-width: 40%; /* Adjust width as needed */
+    background: rgba(0, 0, 0, 0.5); /* Background for better readability */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+  
+  .benefits {
+    padding: 20px;
+  }
+  
+  .benefits-title {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #4d4dee;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .benefits-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .benefit-card {
+    background: #f9f9f9;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 8px;
+    width: 100%; /* Full width by default */
+    max-width: 300px; /* Adjust to fit your design */
+    box-shadow: 4px 6px 5px hwb(240 27% 6%);
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  }
+  
+  .benefit-card h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .benefit-card {
+      max-width: 100%; /* Ensure card fits within the container */
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  }
+  

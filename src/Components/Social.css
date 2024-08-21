@@ -1,0 +1,29 @@
+.contact-social-container {
+   align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.contact-info {
+    display: flex;
+}
+.contact-info p {
+    margin: 0 10px 0 0; /* Added right margin for spacing between items */
+}
+
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: flex-end; */
+    flex: 1;
+}
+
+.social-icons li {
+    margin-right: 3px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: inherit;
+}

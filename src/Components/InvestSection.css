@@ -1,0 +1,36 @@
+.investment-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .investment-card {
+    display: flex;
+    margin-bottom: 24px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .investment-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .investment-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .investment-content h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .investment-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
